@@ -4,6 +4,7 @@
 .settings
 
 # Build related
+bin
 build
 .gradle
 *.class
