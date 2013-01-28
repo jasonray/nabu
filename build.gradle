@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile 'log4j:log4j:1.2.16'
+
+	testCompile "junit:junit-dep:4.10"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.3'
+}
